@@ -60,7 +60,7 @@ h3 {
 
 p {
   margin-bottom: 1.5rem;
-  line-: 1.8;
+  line-height: 1.8;
 }
 
 a {
@@ -98,15 +98,15 @@ header {
 }
 
 .logo {
-  height: 120px;
-  width: auto;
   display: flex;
   align-items: center;
 }
 
 .logo img {
-  height: 120px;
-  width: auto;
+  height: 150px !important;
+  width: auto !important;
+  max-width: none !important;
+  max-height: none !important;
   display: block;
 }
 
@@ -489,8 +489,8 @@ footer {
     font-size: 1.25rem;
   }
   
-  .logo {
-    height: 50px;
+  .logo img {
+    height: 70px !important;
   }
   
   nav a {
