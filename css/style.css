@@ -591,3 +591,56 @@ footer {
     color: var(--navy);
 }
 
+/* Mobile layout fix */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .hero,
+  .section,
+  .container,
+  main,
+  article {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .hero-content,
+  .content-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .button,
+  .btn,
+  .cta-button {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    display: block;
+    margin-top: 32px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
